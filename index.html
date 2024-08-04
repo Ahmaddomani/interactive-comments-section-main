@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta name="description" content="This is A wepsite desing for comments" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- css files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normaliz.css" />
+    <title>Frontend Mentor | Interactive comments section</title>
+
+    <!-- wep fonts  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- Google  fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start main page -->
+    <div class="main-page">
+      <div class="container">
+        <!-- start box -->
+        <div class="box comment">
+          <!-- start rate -->
+          <div class="fotter">
+            <div class="rate">
+              <span class="increment">+</span><span class="count">12</span>
+              <span class="decrement">-</span>
+            </div>
+            <span class="reply"><i class="fa-solid fa-reply"></i>Reply</span>
+          </div>
+          <!-- end rate -->
+          <!-- start text -->
+          <div class="text">
+            <!-- start head -->
+            <div class="head">
+              <img class="peesonal-img" src="" alt="" />
+              <div>
+                <h4 class="name"></h4>
+                <span class="durition"></span>
+              </div>
+              <span class="reply"><i class="fa-solid fa-reply"></i>Reply</span>
+            </div>
+            <!-- end  head -->
+            <!-- start paragraph -->
+            <p class="paragraph"></p>
+            <!-- end paragraph -->
+          </div>
+          <!-- end text -->
+        </div>
+        <!-- end box -->
+
+        <!-- start box -->
+        <div class="box comment">
+          <!-- start rate -->
+          <div class="fotter">
+            <div class="rate">
+              <span class="increment">+</span> <span class="count">5</span>
+              <span class="decrement">-</span>
+            </div>
+            <span class="reply"><i class="fa-solid fa-reply"></i>Reply</span>
+          </div>
+          <!-- end rate -->
+          <!-- start text -->
+          <div class="text">
+            <!-- start head -->
+            <div class="head">
+              <img class="peesonal-img" src="" alt="" />
+              <div>
+                <h4 class="name"></h4>
+                <span class="durition"></span>
+              </div>
+              <span class="reply"><i class="fa-solid fa-reply"></i>Reply</span>
+            </div>
+            <!-- end  head -->
+            <!-- start paragraph -->
+            <p class="paragraph"></p>
+            <!-- end paragraph -->
+          </div>
+          <!-- end text -->
+        </div>
+        <!-- end box -->
+
+        <!-- start box -->
+        <div class="box replay">
+          <!-- start rate -->
+          <div class="fotter">
+            <div class="rate">
+              <span class="increment">+</span> <span class="count">4</span>
+              <span class="decrement">-</span>
+            </div>
+            <span class="reply"><i class="fa-solid fa-reply"></i>Reply</span>
+          </div>
+          <!-- end rate -->
+          <!-- start text -->
+          <div class="text">
+            <!-- start head -->
+            <div class="head">
+              <img class="replay-peesonal-img" src="" alt="" />
+              <div>
+                <h4 class="replay-name"></h4>
+                <span class="replay-durition"></span>
+              </div>
+              <span class="reply"><i class="fa-solid fa-reply"></i>Reply</span>
+            </div>
+            <!-- end  head -->
+            <!-- start paragraph -->
+            <p class="replay-paragraph"></p>
+            <!-- end paragraph -->
+          </div>
+          <!-- end text -->
+        </div>
+        <!-- end box -->
+
+        <!-- start box -->
+        <div class="box replay you">
+          <!-- start rate -->
+          <div class="fotter">
+            <div class="rate">
+              <span class="increment">+</span> <span class="count">2</span>
+              <span class="decrement">-</span>
+            </div>
+            <div class="delete-edit">
+              <span class="delete"
+                ><i class="fa-regular fa-trash-can"></i>delete</span
+              >
+              <span class="edit"><i class="fa-solid fa-pen"></i>edit</span>
+            </div>
+          </div>
+          <!-- end rate -->
+          <!-- start text -->
+          <div class="text">
+            <!-- start head -->
+            <div class="head">
+              <img class="replay-peesonal-img" src="" alt="" />
+              <div>
+                <h4 class="replay-name"></h4>
+                <span class="replay-durition"></span>
+              </div>
+              <div class="delete-edit">
+                <span class="delete"
+                  ><i class="fa-regular fa-trash-can"></i>delete</span
+                >
+                <span class="edit"><i class="fa-solid fa-pen"></i>edit</span>
+              </div>
+            </div>
+            <!-- end  head -->
+            <!-- start paragraph -->
+            <p class="replay-paragraph"></p>
+            <!-- end paragraph -->
+          </div>
+          <!-- end text -->
+        </div>
+        <!-- end box -->
+
+        <!-- start comment box -->
+        <div class="box send-comment">
+          <img src="" alt="" />
+          <textarea
+            name=""
+            id=""
+            class="message"
+            placeholder="Add a Comment"
+          ></textarea>
+          <button class="send">SEND</button>
+        </div>
+        <!-- end comment box -->
+      </div>
+    </div>
+    <!-- end main page -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Ahmaddomani">AhmadAldomani</a>.
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <script src="js/script.js"></script>
+    <!-- wep fonts  -->
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
